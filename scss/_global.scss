@@ -1,0 +1,37 @@
+body{
+
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Ubuntu:wght@300&display=swap');
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $Very-dark-blue;
+
+    font-family: Overpass, "sans-serif";
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    >h3{
+    color: $white;
+
+    }
+}
+
+
+
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}

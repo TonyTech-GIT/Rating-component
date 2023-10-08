@@ -1,0 +1,136 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather&family=Montserrat:wght@100;400;900&family=Overpass:wght@300;400;700&family=Poppins:wght@100;200;300;400&family=Public+Sans:wght@300;400;700&family=Roboto:wght@300;400;700&family=Sacramento&family=Ubuntu:wght@300&display=swap");
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: Overpass, "sans-serif";
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.rating-container {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 300px;
+  height: 300px;
+  margin: 20vh auto;
+  border-radius: 2rem;
+  padding: 1.5rem;
+}
+.rating-container_logo {
+  background-color: hsl(214deg, 20%, 23%);
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.rating-container_logo > img {
+  margin: 0.375rem 0.4375rem;
+}
+.rating-container_header > h2 {
+  color: hsl(0deg, 0%, 100%);
+  -webkit-padding-start: 0.5rem;
+          padding-inline-start: 0.5rem;
+}
+.rating-container_text > p {
+  color: hsl(216deg, 12%, 54%);
+  padding-inline: 0.5rem;
+  font-size: 1.08rem;
+}
+.rating-container_levels {
+  display: flex;
+  -webkit-padding-start: 0.5rem;
+          padding-inline-start: 0.5rem;
+}
+.rating-container_levels > .number {
+  background-color: hsl(214deg, 20%, 23%);
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  transition: 200ms ease-in;
+  text-align: center;
+  color: hsl(216deg, 12%, 54%);
+  line-height: 2.5;
+}
+.rating-container_levels > .number:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.rating-container_levels > .number:focus {
+  background-color: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.rating-container_levels > .number:not(:last-child) {
+  -webkit-margin-end: 1rem;
+          margin-inline-end: 1rem;
+}
+.rating-container_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+.rating-container_button > button {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  padding-inline: 7rem;
+  padding-block: 0.7rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 300ms ease-in-out;
+  font-weight: 700;
+  font-size: 0.8em;
+  letter-spacing: 0.25em;
+}
+.rating-container_button > button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.appreciation-container {
+  background-color: hsl(213deg, 19%, 18%);
+  width: 300px;
+  height: 300px;
+  margin: 20vh auto;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.appreciation-container_image {
+  width: 100%;
+  margin-block: 0.8rem;
+}
+.appreciation-container_rating {
+  background-color: hsl(214deg, 20%, 23%);
+  width: 12em;
+  border-radius: 2rem;
+  margin: 1rem auto 1.5rem auto;
+}
+.appreciation-container_rating > p {
+  padding: 6px 2px;
+  color: hsl(25deg, 97%, 53%);
+}
+.appreciation-container_header {
+  color: hsl(0deg, 0%, 100%);
+  margin: 0 0 0 0;
+}
+.appreciation-container_header h2 {
+  margin: 0 0 0 0;
+}
+.appreciation-container > p {
+  color: hsl(216deg, 12%, 54%);
+}/*# sourceMappingURL=style.css.map */ader h2 {
+  margin: 0 0 0 0;
+}
+.appreciation-container > p {
+  color: hsl(216deg, 12%, 54%);
+}/*# sourceMappingURL=style.css.map */

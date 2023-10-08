@@ -1,0 +1,60 @@
+.appreciation-container{
+    background-color: $Dark-blue;
+    width: 300px;
+    height: 300px;
+    margin: 20vh auto;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    text-align: center;
+
+
+    // &_logo {
+    //     background-color: hsl(214, 20%, 23%);
+    //     height: 30px;
+    //     width: 30px;
+    //     border-radius: 50%;
+
+    //     // margin-left: 2rem;
+    //     >img {
+    //         margin: 6px 7px;
+    //     }
+    // }
+
+    &_image{
+        width: 100%;
+        margin-block: .8rem;
+        // text-align: center;
+        // margin: 0 auto;
+    }
+
+    &_rating{
+        background-color: hsl(214, 20%, 23%);
+        width: 12em;
+        border-radius: 2rem; 
+        // padding: 0;
+        // display: grid;
+        margin: 1rem auto 1.5rem auto;
+
+
+
+        >p{
+        padding: 6px 2px;
+        // text-align: center;
+        color: $Orange;
+
+        }
+    }
+
+    &_header{
+        color: $white;
+        margin: 0 0 0 0;
+        h2{
+            margin: 0 0 0 0;
+        }
+    }
+
+    >p{
+        color: $Medium-grey;
+        // margin: 0 0 2rem 0;
+    }
+}
